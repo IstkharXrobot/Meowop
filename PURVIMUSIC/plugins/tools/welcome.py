@@ -4,8 +4,8 @@ from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboa
 from pyrogram import Client, filters, enums
 from pyrogram.enums import ParseMode, ChatMemberStatus
 from logging import getLogger
-from SONALI.utils.database import add_served_chat, get_assistant, is_active_chat
-from SONALI.misc import SUDOERS
+from PURVIMUSIC.utils.database import add_served_chat, get_assistant, is_active_chat
+from PURVIMUSIC.misc import SUDOERS
 import asyncio
 import random
 import os
